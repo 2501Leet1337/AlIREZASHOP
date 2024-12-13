@@ -82,9 +82,9 @@ INSTALLED_APPS = [
     
     'django_tables2',
 ]
- 
-SITE_ID = 1
 
+SITE_ID = 1
+# 3rd-party apps that oscar depends on
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
