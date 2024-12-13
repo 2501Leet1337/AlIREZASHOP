@@ -84,7 +84,7 @@ INSTALLED_APPS = [
 ]
 
 SITE_ID = 1
-# 3rd-party apps that oscar depends on
+#hhhfhfj
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
