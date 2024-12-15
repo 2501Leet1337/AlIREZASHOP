@@ -12,8 +12,16 @@ file structure
 
 
 
-this project was to add SQL injection prevention to the developed application.
-the security codes can be found in the middleware.py file about throttling requests and normalizing inputs 
+the main objective of this project was to develop secur code into my developement like SQL injection prevention and Password bruteforce 
+
+![2343](https://github.com/user-attachments/assets/6fffcbce-93f9-42c0-8916-68bf5c16df2d)
+
+
+
+![7779](https://github.com/user-attachments/assets/1bd159e0-6ea2-4ca5-ba17-9719e2f9c3a8)
+
+
+the security codes can be found in the middleware.py file 
 
 
 # AlIREZASHOP
