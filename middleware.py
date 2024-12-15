@@ -15,7 +15,7 @@ class ThrottleMiddleware:
 
         
         now = time()
-        requests = [req for req in requests if now - req < 60]
+        requests = [req for req in requests if now - req < 80]
         requests.append(now)
 
         
