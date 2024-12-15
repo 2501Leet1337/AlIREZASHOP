@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     'treebeard',
     'sorl.thumbnail',
     'django_tables2',
+    'axes', 
 ]
 
 SITE_ID = 1
