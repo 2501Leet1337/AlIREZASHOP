@@ -6,7 +6,8 @@ file structure
 ![Screenshot 2024-12-15 204920](https://github.com/user-attachments/assets/f6fd8f19-5846-40b2-ad2e-e945be868ebd)
 
 
-
+this project was to add SQL injection prevention to the developed application.
+the security codes can be found in the middleware.py file about throttling requests and normalizing inputs 
 
 
 # AlIREZASHOP
@@ -25,3 +26,8 @@ step 3. apply all migrations
 step 4. to run the server run the following command 
 >python manage.py runserver
 and access the site at http://127.0.0.1:8000 
+
+
+
+
+Email: ali.reza.l33t@gmail.com
