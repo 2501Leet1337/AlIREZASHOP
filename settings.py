@@ -98,6 +98,7 @@ MIDDLEWARE = [
     'oscar.apps.basket.middleware.BasketMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
     'axes.middleware.AxesMiddleware',
+    'Alirezashop.middleware.InputNormalizationMiddleware',
 ]
 
 ROOT_URLCONF = 'Alirezashop.urls'
