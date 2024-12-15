@@ -1,9 +1,15 @@
 # AlIREZASHOP
-This is an e-commerce project developed using Oscar framework for Django 
+This is an e-commerce project developed using Oscar framework for Django, It provides a customizable and scalable solution for building modern online stores.
+
+
+![Screenshot 2024-12-15 231649](https://github.com/user-attachments/assets/e0b148ef-9b29-480f-812f-ad1820a4a823)
 
 
 file structure 
+
+
 ![Screenshot 2024-12-15 204920](https://github.com/user-attachments/assets/f6fd8f19-5846-40b2-ad2e-e945be868ebd)
+
 
 
 this project was to add SQL injection prevention to the developed application.
