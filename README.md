@@ -14,6 +14,7 @@ file structure
 
 the main objective of this project was to develop secur code into my developement like SQL injection prevention and Password bruteforce 
 
+
 ![2343](https://github.com/user-attachments/assets/6fffcbce-93f9-42c0-8916-68bf5c16df2d)
 
 
@@ -21,7 +22,10 @@ the main objective of this project was to develop secur code into my developemen
 ![7779](https://github.com/user-attachments/assets/1bd159e0-6ea2-4ca5-ba17-9719e2f9c3a8)
 
 
-the security codes can be found in the middleware.py file 
+the security codes can be found in the middleware.py file
+
+
+Creating custom classes to make this application secure 
 
 
 # AlIREZASHOP
@@ -40,6 +44,9 @@ step 3. apply all migrations
 step 4. to run the server run the following command 
 >python manage.py runserver
 and access the site at http://127.0.0.1:8000 
+
+
+
 
 
 
