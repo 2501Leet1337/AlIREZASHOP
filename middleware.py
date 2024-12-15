@@ -13,7 +13,7 @@ class ThrottleMiddleware:
         key = f"throttle-{ip}-{endpoint}"
         requests = cache.get(key, [])
 
-        # Remove requests older than 60 seconds
+        # Removes requests older than 60 seconds
         now = time()
         requests = [req for req in requests if now - req < 60]
         requests.append(now)
@@ -35,3 +35,20 @@ class ThrottleMiddleware:
         else:
             ip = request.META.get('REMOTE_ADDR')
         return ip
+    def __call__(self, request):
+        # Normalising GET and POST data
+        request.GET = self._normalize_querydict(request.GET)
+        request.POST = self._normalize_querydict(request.POST)
+        return self.get_response(request)
+
+    def _normalize_querydict(self, querydict):
+        """
+        stripping whitespace from all string values.
+        """
+        normalized = querydict.copy()
+        for key, value in normalized.lists():
+            normalized.setlist(
+                key, 
+                [v.strip() if isinstance(v, str) else v for v in value]
+            )
+        return normalized
